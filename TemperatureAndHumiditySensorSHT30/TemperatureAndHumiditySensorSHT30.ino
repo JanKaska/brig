@@ -21,7 +21,7 @@ void loop() {
     
     Serial.print("Relative Humidity : ");
     Serial.println(sht30.humidity);
-    Serial.println();
+    Serial.println("%");
   }
   else
   {
